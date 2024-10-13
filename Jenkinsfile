@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh 'node --version'
                 sh 'svn --version'
-                echo 'Hello, world!'
+                echo 'Hello world!'
                 
             }
         }
